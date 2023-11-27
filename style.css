@@ -45,6 +45,7 @@ header .container .left-item {
   align-items: center;
   margin-left: 1rem;
   cursor: pointer;
+  line-height: 1.4;
 }
 
 header .container .left-item img {
