@@ -130,7 +130,7 @@ header .container .right-item ul li:hover a {
   height: 100%;
   margin: 50%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 80%;
   transition: all 0.3s ease-in-out;
   border: none;
   cursor: grab;
@@ -142,75 +142,153 @@ header .container .right-item ul li:hover a {
 }
 
 /* Banner end */
+
 /* About Me section Start  */
 .about-me {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.about-me .left {
+  width: 50%;
+  text-align: center;
+}
+
+.about-me .left img {
+  width: 75%;
+  outline: none;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 3px #aaa;
+  cursor: grab;
+}
+
+.about-me .right {
+  width: 100%;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.about-me .right h2 {
+  margin: 0.8rem 0;
+  width: 7.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--btn-text-color);
+}
+
+.about-me .right h3,
+p {
+  margin: 0.3rem 1rem;
+}
+
+.about-me .right .btn-blue {
+  margin: 0.8rem;
+}
+
+/* About Me section end  */
+#skills {
   margin: 2rem 0;
-  padding: 1rem;
-  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 10px;
 }
 
-/* about-top start */
-.about-me .about-top {
+#skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  width: 5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--btn-text-color);
+}
+
+.skills {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.about-me .about-top .left {
-  margin: 0 3rem;
-  cursor: pointer;
+.skills .left {
+  width: 50%;
 }
 
-.about-me .about-top .left img {
-  width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 5px #aaa;
-  border: 3px solid #fff;
+.skills .left img {
+  width: 100%;
 }
 
-.about-me .about-top .right {
-  width: 40rem;
-  padding: .8rem;
-  font-size: large;
+.skills .right {
+  width: 50%;
 }
 
-.about-me .about-top .right h2 {
+.skills-container {
+  width: 100%;
+}
+
+.html {
+  width: 90%;
+  height: .5rem;
+  background-color: #e54c21;
   margin: 1rem 0;
+  border-radius: 12px;
 }
 
-.about-me .about-top .right div {
-  margin-left: 2rem;
-}
-
-.about-me .about-top .right div h3 {
-  margin: 0.8rem 0;
-}
-
-.about-me .about-top .right div p {
-  line-height: 1.8rem;
-  font-size: 1.3rem;
+.css {
+  width: 80%;
+  height: .5rem;
+  background-color: #00a0e4;
   margin: 1rem 0;
+  border-radius: 12px;
 }
 
-/* about-top End */
-/* about-Bottom Start */
+.javascript {
+  width: 65%;
+  height: .5rem;
+  background-color: yellow;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
 
-/* about-Bottom end */
+.bootstrap {
+  width: 50%;
+  height: .5rem;
+  background-color: #7952b3;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
 
+.reactjs {
+  width: 30%;
+  height: .5rem;
+  background-color: #61dafb;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
 
+.p-reletive {
+  position: relative;
+}
 
+.bar {
+  margin: 3rem 0;
+}
 
+.bar-content {
+  position: absolute;
+  bottom: 12px;
+}
 
+.skills-container .right-skill {
+  right: 0;
+}
 
-
-
-
-
-/* About Me section end  */
-
-/* About Me  end*/
+.skills-container .left {
+  left: 0;
+}

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/res/favicon/favicon.ico">
+  <link rel="icon" href="/res/favicon/favicon-32x32.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,14 +19,14 @@
   <header>
     <div class="container">
       <div class="left-item">
-        <img src="/res/Brand.png" alt="">
         <h1>Sam</h1>
+        <img src="/res/Brand.png" alt="">
       </div>
       <div class="right-item">
         <ul class="menu">
-          <li><a href="#" target="_blank">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about-me">About Me</a></li>
-          <li><a href="#" target="_blank">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#" target="_blank">Services</a></li>
           <li><a href="#" target="_blank">Projects</a></li>
         </ul>
@@ -35,48 +35,66 @@
     <div class="clr"></div>
   </header>
 
-  <main>
+  <main id="home">
     <section>
       <!-- banner -->
-      <div class="banner" id="about-me">
+      <div class="banner">
         <div class="container">
           <img src="/res/profile-1.png" class="img-1" alt="">
         </div>
       </div>
       <!-- about me -->
-      <div class="about-me">
-        <div class="about-top">
-          <div class="left">
-            <img src="/res/profile-2.png" alt="">
-          </div>
-          <div class="right">
-            <h2>About Me</h2>
-            <div>
-              <h3>Sam Ash</h3>
-              <p>A self-tought Frontend Web Developer With BSCE (Bachelor of Science in Computer Engineering) for
-                an opportunity in Web Development. <br>
-                Who is committed to study web development. Mindset to fullfill the life with
-                wonderful memories and knowledge.</p>
-              </p>
-              <button class="btn-blue">Hire Me</button>
-            </div>
-
-          </div>
+      <div class="about-me" id="about-me">
+        <div class="left">
+          <img src="/res/profile-2.png" alt="">
         </div>
-        <div class="about-bottom">
-          <h2>Skills</h2>
-          <div class="about-left">
+        <div class="right">
+          <h2>About Me</h2>
+          <div>
+            <h3>Sam Ash</h3>
+            <p>A self-tought Frontend Web Developer With BSCE (Bachelor of Science in Computer Engineering) for
+              an opportunity in Web Development. <br>
+              Who is committed to study web development. Mindset to fullfill the life with
+              wonderful memories and knowledge.</p>
+            </p>
+            <button class="btn-blue">Hire Me</button>
+          </div>
+          <!-- aboutme end -->
+        </div>
+      </div>
+      <div id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="left">
             <img src="/res/skills.png" alt="">
           </div>
-          <div class="about-right">
-            <div class="html"></div>
-            <div class="CSS"></div>
-            <div class="JavaScript"></div>
-            <div class="Bootstrap"></div>
-            <div class="ReactJs"></div>
+          <div class="right">
+            <div class="skills-container">
+              <div class="html p-reletive bar">
+                <span class="bar-content left">HTML</span>
+                <span class="bar-content right-skill">90%</span>
+              </div>
+              <div class="css p-reletive bar">
+                <span class="bar-content left">Css</span>
+                <span class="bar-content right-skill">80%</span>
+              </div>
+              <div class="javascript p-reletive bar">
+                <span class="bar-content left">JavaScript</span>
+                <span class="bar-content right-skill">75%</span>
+              </div>
+              <div class="bootstrap p-reletive bar">
+                <span class="bar-content left">Bootstrap</span>
+                <span class="bar-content right-skill">50%</span>
+              </div>
+              <div class="reactjs p-reletive bar">
+                <span class="bar-content left">ReactJs</span>
+                <span class="bar-content right-skill">30%</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
     </section>
   </main>
   <footer></footer>
