@@ -6,7 +6,8 @@
   --btn-text-color: #4db5ff;
 }
 
-* {
+*,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -434,7 +435,7 @@ header .container .right-item ul li:hover a {
 
 .project-items .project-item p {
   padding: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   line-height: 1.6rem;
   text-align: center;
   margin-bottom: 1.4rem;
@@ -479,7 +480,6 @@ header .container .right-item ul li:hover a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100%;
   margin: 1rem;
   overflow: hidden;
@@ -552,3 +552,77 @@ header .container .right-item ul li:hover a {
 }
 
 /* Contact Me End */
+
+/* Footer Start */
+footer .container {
+  width: 100%;
+  height: 12rem;
+  background-color: #00a0e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .bottom-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+footer .container .bottom-nav ul li {
+  list-style: none;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.bottom-nav ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: all .2s linear;
+}
+
+.bottom-nav ul li a:hover {
+  color: #2c2c6c;
+}
+
+footer .container .social-media {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .container .social-media a {
+  margin: 0 0.2rem;
+  padding: 0.8rem .9rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #fff;
+  background: #1f1f38;
+  border-radius: 0.8rem;
+  transition: all 0.2s linear;
+}
+
+footer .container .social-media a:hover {
+  color: #1f1f38;
+  background: #fff;
+}
+
+footer .container .copyright {
+  margin-bottom: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+footer .container .copyright span>a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* Footer End */
